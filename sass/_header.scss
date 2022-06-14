@@ -1,0 +1,18 @@
+.container__header {
+    background-color: #add8e6;
+    
+
+    .logo__tipo {
+        width: 150px;
+        height: 80px;
+    }
+
+    .nav-item {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 2rem;
+        background-color: $color;
+        border: 1px solid #000000;
+        box-shadow: 3px 3px 10px #000000;
+        
+    }
+}

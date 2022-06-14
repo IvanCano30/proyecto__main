@@ -12,7 +12,7 @@
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./sass/estilos.css">
     <title>Sito Web Austral-Kayaks</title>
 </head>
 
@@ -74,22 +74,25 @@
                 <div class="carousel-item active">
                     <img src="./img/kayak.jpg" class="d-block w-100" alt="kayakista">
                     <div class="carousel-caption d-none d-md-block">
-                        <h5>First slide label</h5>
-                        <p>Some representative placeholder content for the first slide.</p>
+                        <h5 class="h__carousel">First Picture</h5>
+                        <p class="p__carousel">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores,
+                            accusamus.</p>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <img src="./img/beel.jpg" class="d-block w-100" alt="kayakista">
                     <div class="carousel-caption d-none d-md-block">
-                        <h5>Second slide label</h5>
-                        <p>Some representative placeholder content for the second slide.</p>
+                        <h5 class="h__carousel">Second Picture</h5>
+                        <p class="p__carousel">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat,
+                            voluptatibus?</p>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <img src="./img/piky.jpg" class="d-block w-100" alt="kayakista">
                     <div class="carousel-caption d-none d-md-block">
-                        <h5>Third slide label</h5>
-                        <p>Some representative placeholder content for the third slide.</p>
+                        <h5 class="h__carousel">Third Picture</h5>
+                        <p class="p__carousel">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos,
+                            consequuntur!</p>
                     </div>
                 </div>
             </div>
@@ -107,76 +110,58 @@
     </section>
     <!--fin carousel -->
     <!--inicio cards -->
-    <section class="cards">
-        <section class="card__1">
-            <div class="card mb-3" style="max-width: 540px;">
-                <div class="row g-0">
-                    <div class="col-md-4">
-                        <img src="./img/maori.jpg" class="img-fluid rounded-start" alt="Maori560">
-                    </div>
-                    <div class="col-md-8">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                                additional content. This content is a little bit longer.</p>
-                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                        </div>
+    <div class="container__cards">
+        <div class="row">
+            <div class="col col-lg-4 col-md-12 col-sm-12">
+                <div class="card bg-secondary">
+                    <img src="img/maori.jpg" class="card-img-top" alt="Maori560">
+                    <div class="card-body">
+                        <h5 class="card-title">Maori560</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, quos?</p>
+                        <a href="/pages/modelos.html" class="btn btn-dark">Ingrese a Modelos</a>
                     </div>
                 </div>
             </div>
-        </section>
-        <section class="card__2">
-            <div class="card mb-3" style="max-width: 540px;">
-                <div class="row g-0">
-                    <div class="col-md-4">
-                        <img src="./img/husky10.jpg" class="img-fluid rounded-start" alt="husky">
-                    </div>
-                    <div class="col-md-8">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                                additional content. This content is a little bit longer.</p>
-                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                        </div>
+            <div class="col col-lg-4 col-md-12 col-sm-12">
+                <div class="card bg-secondary">
+                    <img src="img/husky10.jpg" class="card-img-top" alt="Husky">
+                    <div class="card-body">
+                        <h5 class="card-title">Husky</h5>
+                        <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores, aperiam.
+                        </p>
+                        <a href="/pages/modelos.html" class="btn btn-dark">Ingrese a Modelos</a>
                     </div>
                 </div>
             </div>
-        </section>
-        <section class="card__3">
-            <div class="card mb-3" style="max-width: 540px;">
-                <div class="row g-0">
-                    <div class="col-md-4">
-                        <img src="./img/oceanus10.jpg" class="img-fluid rounded-start" alt="oceanus">
-                    </div>
-                    <div class="col-md-8">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                                additional content. This content is a little bit longer.</p>
-                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                        </div>
+            <div class="col col-lg-4 col-md-12 col-sm-12">
+                <div class="card bg-secondary">
+                    <img src="/img/oceanus10.jpg" class="card-img-top" alt="Oceanus">
+                    <div class="card-body">
+                        <h5 class="card-title">Oceanus</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat, beatae!
+                        </p>
+                        <a href="/pages/modelos.html" class="btn btn-dark">Ingresar a Modelos</a>
                     </div>
                 </div>
             </div>
-        </section>
-    </section>
-    <!--fin cards -->
-    <!--incia el footer-->
-    <footer id="footer">
-        <div class="footer__a">
-            <a class="a__item" href="https://www.instagram.com/">
-                <i class="fa-brands fa-instagram"></i> Instagram </a></li>
-            <a class="a__item" href="https://www.facebook.com/">
-                <i class="fa-brands fa-facebook-f"></i> Facebook</a></li>
-            <a class="a__item" href="https://wa.me/c/5493413588817">
-                <i class="fa-brands fa-whatsapp"></i> Whatsapp / Catalogo</a></li>
         </div>
-    </footer>
-    <!--termina el footer-->
-    <!-- JavaScript Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
-    </script>
+        <!--fin cards -->
+        <!--incia el footer-->
+        <footer class="container__footer">
+            <div class="footer__a">
+                <a class="a__item" href="https://www.instagram.com/">
+                    <i class="fa-brands fa-instagram"></i> Instagram </a>
+                <a class="a__item" href="https://www.facebook.com/">
+                    <i class="fa-brands fa-facebook-f"></i> Facebook</a>
+                <a class="a__item" href="https://wa.me/c/5493413588817">
+                    <i class="fa-brands fa-whatsapp"></i> Whatsapp / Catalogo</a>
+            </div>
+        </footer>
+        <!--termina el footer-->
+        <!-- JavaScript Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+        </script>
 </body>
 
 </html>
