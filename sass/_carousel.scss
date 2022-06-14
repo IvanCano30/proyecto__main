@@ -1,7 +1,11 @@
+@import  "variables";
+
 .carousel-inner {
     width: $wid-hei;
     height: $wid-hei;
     border-radius: 80%;
+    border: 2px solid rgb(122, 122, 122);
+    margin:1px ;
     .carousel-item {
         width: $wid-hei;
         height: $wid-hei;
@@ -9,12 +13,14 @@
         .d-block {
             width: $wid-hei;
             height: 500px;
+            
         }
         .carousel-caption{
             .h__carousel{
                 font-size: 2em;
                 color: $color-terciario;
                 font-family: Arial, Helvetica, sans-serif;
+                
             }
             .p__carousel{
                 font-size: .8em;

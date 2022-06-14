@@ -1,10 +1,14 @@
-.container__header {
-    background-color: #add8e6;
-    
+@import  "variables";
+.container__header{
+    background-color: #061d2c;
+    border: 2px solid #121169;
+    margin-bottom: 25px;
 
     .logo__tipo {
         width: 150px;
         height: 80px;
+        border: 2px solid #000000;
+        border-radius: 50%;
     }
 
     .nav-item {

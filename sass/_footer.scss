@@ -1,0 +1,18 @@
+@import "variables";
+
+.footer__a{
+    background-color: #afafaf;
+    font-size: 1rem;
+    margin-top: 10px;
+    border: 2px solid #112B3C;
+    .a__item{
+        text-decoration: none;
+        color: #000;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        
+        }
+
+}

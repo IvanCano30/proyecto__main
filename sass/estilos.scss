@@ -1,17 +1,7 @@
-@import "header", "carousel";
-
-$color: #afafaf;
-$color-primario: #edce96;
-$color-secundario: #efefef;
-$color-terciario: #add8e6;
-$wid-hei: 100%;
+@import "header", "carousel", "variables", "body", "footer";
 
 
-body {
-    background-color: $color-primario;
-    font-size: 2em;
-}
 
-.footer__a{
-    background-color: #afafaf;
-}
+
+
+
