@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="contacto, ubicanos, ubicacion australkayak">
+    <meta name="description" content="encontranos en esta ubicacion">
     <link rel="shortcut icon" href="../img/favicon/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
         integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
@@ -17,9 +19,8 @@
 </head>
 
 <body>
-    <!--inicio header-->
     <header class="container__header">
-        <nav class="navbar navbar-expand-lg bg-light">
+        <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">
                     <img class="logo__tipo" src="../img/logosinborde.png" alt="logotipo">
@@ -33,9 +34,6 @@
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./contacto.html">Contacto</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
@@ -51,6 +49,12 @@
                                 <li><a class="dropdown-item" href="./accesorios.html">Accesorios</a></li>
                             </ul>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./contacto.html">Contacto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./presupuesto.html">Tú presupuesto</a>
+                        </li>
                     </ul>
                     <form class="d-flex" role="search">
                         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
@@ -61,42 +65,37 @@
         </nav>
     </header>
     <!--fin header-->
+    <div class="titulo--principal">
+        <h2>Contacto / Ubicación</h2>
+    </div>
     <!--inicio contacto-->
-    <form>
-        <div class="titulo__form">
-            <h1>
-                Contacto
-            </h1>
+    <!--incia el formulario-->
+    <section>
+        <div class="contenedor-form">
+            <form action="" class="form">
+                <div class="encabezado-form">
+                    <h1 class="titulo-form">Contactanos</h1>
+                </div>
+                <label for="nombre" class="form-label">Nombre:</label>
+                <input type="text" id="nombre" class="form-input" placeholder="Escriba su nombre">
+                <label for="email" class="form-label">Correo Electronico:</label>
+                <input type="email" class="form-input" id="correo" placeholder="Escriba su correo">
+                <label for="mensaje" class="form-label">Mensaje:</label>
+                <textarea class="form-textarea" id="mensaje" placeholder="Escriba su mensaje"></textarea>
+                <input type="submit" class="btn-submit" value="Enviar Consulta">
+            </form>
         </div>
-        <div class="row">
-            <div class="col">
-                <input type="text" class="form-control" placeholder="Nombre/First name" aria-label="Nombre/First name">
-            </div>
-            <div class="col">
-                <input type="text" class="form-control" placeholder="Apellido/Last name"
-                    aria-label="Apellido/Last name">
-            </div>
-        </div>
-        <div class="mb-3">
-            <label for="exampleFormControlInput1" class="form-label">Ingrese Email</label>
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="email@example.com">
-        </div>
-        <div class="mb-3">
-            <label for="exampleFormControlTextarea1" class="form-label">Consulta</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-        </div>
-        <button type="submit" class="btn btn-primary">Enviar Consulta</button>
-    </form>
-    <!--fin contacto-->
+    </section>
+    <!--fin formulario-->
 
 
     <!--incia el footer-->
     <footer class="container__footer">
         <div class="footer__a">
-            <a class="a__item" href="https://www.instagram.com/">
-                <i class="fa-brands fa-instagram"></i> Instagram </a>
-            <a class="a__item" href="https://www.facebook.com/">
-                <i class="fa-brands fa-facebook-f"></i> Facebook</a>
+            <a class="a__item" href="https://www.instagram.com/australkayaks/">
+                <i class="fa-brands fa-instagram"></i>Instagram </a>
+            <a class="a__item" href="https://www.facebook.com/australkayaks">
+                <i class="fa-brands fa-facebook-f"></i>Facebook</a>
             <a class="a__item" href="https://wa.me/c/5493413588817">
                 <i class="fa-brands fa-whatsapp"></i> Whatsapp / Catalogo</a>
         </div>

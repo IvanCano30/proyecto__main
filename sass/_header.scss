@@ -1,5 +1,6 @@
-@import  "variables";
-.container__header{
+@import "variables";
+
+.container__header {
     background-color: #061d2c;
     border: 2px solid #121169;
     margin-bottom: 25px;
@@ -17,6 +18,5 @@
         background-color: $color;
         border: 1px solid #000000;
         box-shadow: 3px 3px 10px #000000;
-        
     }
 }

@@ -5,13 +5,13 @@
     height: $wid-hei;
     border-radius: 80%;
     border: 2px solid rgb(122, 122, 122);
-    margin:1px ;
+    margin:10px ;
     .carousel-item {
-        width: $wid-hei;
+        width: 100%;
         height: $wid-hei;
         
         .d-block {
-            width: $wid-hei;
+            width: 100%;
             height: 500px;
             
         }

@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="Maori560,Husky,Oceanus">
-    <meta name="description" content="obtene tu kayak para tu descanso">
+    <meta name="keywords" content="presupuesto kayak">
+    <meta name="description" content="pedinos tu presupuesto para obetener tu kayak">
     <link rel="shortcut icon" href="../img/favicon/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
         integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
@@ -37,25 +37,25 @@
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                Productos
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="./modelos.html">Modelos</a></li>
-                                <li><a class="dropdown-item" href="./palas.html">Palas</a></li>
-                                <li>
-                                    <hr class="dropdown-divider">
-                                </li>
-                                <li><a class="dropdown-item" href="./accesorios.html">Accesorios</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./contacto.html">Contacto</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./presupuesto.html">Tú presupuesto</a>
-                        </li>
-                    </ul>
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Productos
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="./modelos.html">Modelos</a></li>
+                            <li><a class="dropdown-item" href="./palas.html">Palas</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="./accesorios.html">Accesorios</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contacto.html">Contacto</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./presupuesto.html">Tú presupuesto</a>
+                    </li>
+                </ul>
                     <form class="d-flex" role="search">
                         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                         <button class="btn btn-outline-success" type="submit">Buscar</button>
@@ -65,49 +65,33 @@
         </nav>
     </header>
     <!--fin header-->
-    <div class="titulo--principal">
-        <h2>Modelos:</h2>
-    </div>
-    <!--inicio cards -->
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-12 col-lg-4 col-md-6 col-sm-12">
-                <div class="card">
-                    <img src="../img/maori.jpg" class="card-img-top" alt="Maori560">
-                    <div class="card-body">
-                        <h5 class="card-title">Maori560</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, quos?</p>
-                        <a href="./pages/modelos.html" class="btn btn-dark">Ingresar a Modelos</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-lg-4 col-md-6 col-sm-12">
-                <div class="card">
-                    <img src="../img/husky10.jpg" class="card-img-top" alt="Husky">
-                    <div class="card-body">
-                        <h5 class="card-title">Husky</h5>
-                        <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores, aperiam.
-                        </p>
-                        <a href="../pages/modelos.html" class="btn btn-dark">Ingresar a Modelos</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-lg-4 col-md-12 col-sm-12">
-                <div class="card">
-                    <img src="../img/oceanus10.jpg" class="card-img-top" alt="Oceanus">
-                    <div class="card-body">
-                        <h5 class="card-title">Oceanus</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat, beatae!
-                        </p>
-                        <a href="./pages/modelos.html" class="btn btn-dark">Ingresar a Modelos</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!--fin cards -->
-
-
+    <!--inicio presupuesto-->
     
+    <form>
+        <fieldset disabled>
+            <legend>Disabled fieldset example</legend>
+            <div class="mb-3">
+                <label for="disabledTextInput" class="form-label">Disabled input</label>
+                <input type="text" id="disabledTextInput" class="form-control" placeholder="Disabled input">
+            </div>
+            <div class="mb-3">
+                <label for="disabledSelect" class="form-label">Disabled select menu</label>
+                <select id="disabledSelect" class="form-select">
+                    <option>Disabled select</option>
+                </select>
+            </div>
+            <div class="mb-3">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="disabledFieldsetCheck" disabled>
+                    <label class="form-check-label" for="disabledFieldsetCheck">
+                        Can't check this
+                    </label>
+                </div>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar consulta</button>
+        </fieldset>
+    </form>
+    <!--fin presupuesto-->
     <!--incia el footer-->
     <footer class="container__footer">
         <div class="footer__a">
@@ -125,4 +109,5 @@
         integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
     </script>
 </body>
+
 </html>

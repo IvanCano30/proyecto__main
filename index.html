@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Kayaks, kayak recreativo, kayak travesias, islas">
+    <meta name="description" content="unite a la pasion por los kayaks">
     <link rel="shortcut icon" href="./img/favicon/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
         integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
@@ -33,9 +35,6 @@
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./pages/contacto.html">Contacto</a>
-                        </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                                 data-bs-toggle="dropdown" aria-expanded="false">
@@ -49,6 +48,12 @@
                                 </li>
                                 <li><a class="dropdown-item" href="./pages/accesorios.html">Accesorios</a></li>
                             </ul>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/presupuesto.html">Tú presupuesto</a>
+                        </li>
                         </li>
                     </ul>
                     <form class="d-flex" role="search">
@@ -59,6 +64,9 @@
             </div>
         </nav>
     </header>
+    <div class="titulo--principal">
+        <h2>Austral Kayaks Rosario</h2>
+    </div>
     <!--inicia carousel -->
     <section>
         <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
@@ -80,7 +88,7 @@
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="./img/beel.jpg" class="d-block w-100" alt="kayakista">
+                    <img src="./img/beel2.jpg" class="d-block w-100" alt="kayakista">
                     <div class="carousel-caption d-none d-md-block">
                         <h5 class="h__carousel">Second Picture</h5>
                         <p class="p__carousel">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat,
@@ -109,59 +117,42 @@
         </div>
     </section>
     <!--fin carousel -->
-    <!--inicio cards -->
-    <div class="container__cards">
-        <div class="row">
-            <div class="col col-lg-4 col-md-12 col-sm-12">
-                <div class="card bg-secondary">
-                    <img src="img/maori.jpg" class="card-img-top" alt="Maori560">
-                    <div class="card-body">
-                        <h5 class="card-title">Maori560</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, quos?</p>
-                        <a href="./pages/modelos.html" class="btn btn-dark">Ingrese a Modelos</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col col-lg-4 col-md-12 col-sm-12">
-                <div class="card bg-secondary">
-                    <img src="img/husky10.jpg" class="card-img-top" alt="Husky">
-                    <div class="card-body">
-                        <h5 class="card-title">Husky</h5>
-                        <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores, aperiam.
-                        </p>
-                        <a href="./pages/modelos.html" class="btn btn-dark">Ingrese a Modelos</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col col-lg-4 col-md-12 col-sm-12">
-                <div class="card bg-secondary">
-                    <img src="img/oceanus10.jpg" class="card-img-top" alt="Oceanus">
-                    <div class="card-body">
-                        <h5 class="card-title">Oceanus</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat, beatae!
-                        </p>
-                        <a href="./pages/modelos.html" class="btn btn-dark">Ingresar a Modelos</a>
-                    </div>
-                </div>
+    <!--inicio boton modelos-->
+    <section >
+    <div class="container__boton">
+        <p class="p__boton">
+            <button class="btn" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
+                Nuestra Historia
+            </button>
+        </p>
+    </div>
+    <!--arreglar
+    <div class="container__collapse">
+        <div class="collapse collapse-horizontal" id="collapseWidthExample">
+            <div class="card card-body">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, assumenda.
             </div>
         </div>
-        <!--fin cards -->
-        <!--incia el footer-->
-        <footer class="container__footer">
-            <div class="footer__a">
-                <a class="a__item" href="https://www.instagram.com/">
-                    <i class="fa-brands fa-instagram"></i>Instagram </a>
-                <a class="a__item" href="https://www.facebook.com/">
-                    <i class="fa-brands fa-facebook-f"></i>Facebook</a>
-                <a class="a__item" href="https://wa.me/c/5493413588817">
-                    <i class="fa-brands fa-whatsapp"></i> Whatsapp / Catalogo</a>
-            </div>
-        </footer>
-        <!--termina el footer-->
-        <!-- JavaScript Bundle with Popper -->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
-        </script>
+    </div>-->
+</section>
+    <!--fin boton modelos-->
+    <!--incia el footer-->
+    <footer class="container__footer">
+        <div class="footer__a">
+            <a class="a__item" href="https://www.instagram.com/australkayaks/">
+                <i class="fa-brands fa-instagram"></i>Instagram </a>
+            <a class="a__item" href="https://www.facebook.com/australkayaks">
+                <i class="fa-brands fa-facebook-f"></i>Facebook</a>
+            <a class="a__item" href="https://wa.me/c/5493413588817">
+                <i class="fa-brands fa-whatsapp"></i> Whatsapp / Catalogo</a>
+        </div>
+    </footer>
+    <!--termina el footer-->
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+    </script>
 </body>
 
 </html>
