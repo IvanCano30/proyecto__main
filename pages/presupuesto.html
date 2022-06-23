@@ -35,27 +35,30 @@
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./contacto.html">Contacto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./presupuesto.html">Tú presupuesto</a>
+                        </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Productos
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="./modelos.html">Modelos</a></li>
-                            <li><a class="dropdown-item" href="./palas.html">Palas</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="./accesorios.html">Accesorios</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./contacto.html">Contacto</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./presupuesto.html">Tú presupuesto</a>
-                    </li>
-                </ul>
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Productos
+                            </a>
+                            <ul class="dropdown-menu drop__productos" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="./modelos.html">Modelos</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="./palas.html">Palas</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="./accesorios.html">Accesorios</a></li>
+                            </ul>
+                        </li>
+                    </ul>
                     <form class="d-flex" role="search">
                         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                         <button class="btn btn-outline-success" type="submit">Buscar</button>
@@ -66,30 +69,34 @@
     </header>
     <!--fin header-->
     <!--inicio presupuesto-->
-    
-    <form>
-        <fieldset disabled>
-            <legend>Disabled fieldset example</legend>
-            <div class="mb-3">
-                <label for="disabledTextInput" class="form-label">Disabled input</label>
-                <input type="text" id="disabledTextInput" class="form-control" placeholder="Disabled input">
-            </div>
-            <div class="mb-3">
-                <label for="disabledSelect" class="form-label">Disabled select menu</label>
-                <select id="disabledSelect" class="form-select">
-                    <option>Disabled select</option>
-                </select>
-            </div>
-            <div class="mb-3">
-                <div class="form-check">
-                    <input class="form-check-input" type="checkbox" id="disabledFieldsetCheck" disabled>
-                    <label class="form-check-label" for="disabledFieldsetCheck">
-                        Can't check this
-                    </label>
-                </div>
-            </div>
-            <button type="submit" class="btn btn-primary">Enviar consulta</button>
-        </fieldset>
+
+    <form class="container__form">
+
+        <legend class="titulo__form">Pedí tú Presupuesto</legend>
+        <div class="mb-3 ">
+            <label for="disabledTextInput" class="form-label">Nombre y Apellido:</label>
+            <input type="text" id="disabledTextInput" class="form-control form__control"
+                placeholder="Nombre y apellido">
+        </div>
+        <div class="mb-3 ">
+            <label for="disabledTextInput" class="form-label">E-mail de contacto:</label>
+            <input type="email" id="disabledTextInput" class="form-control form__control"
+                placeholder="Ejemplo@ejemplo.com">
+        </div>
+        <div class="mb-3">
+            <label for="disabledSelect" class="form-label">Que Modelo Te Interesó:</label>
+            <select id="disabledSelect" class="form-select form__control">
+                <option class="Select__Options">Selecciona uno</option>
+                <option class="Select__Options">Maori560</option>
+                <option class="Select__Options">Husky</option>
+                <option class="Select__Options">Oceanus</option>
+                <option class="Select__Options">Palas</option>
+                <option class="Select__Options">Accesorios</option>
+            </select>
+        </div>
+        <div class="btn__form">
+            <button type="submit" class="btn btn__enviar">Enviar consulta</button>
+        </div>
     </form>
     <!--fin presupuesto-->
     <!--incia el footer-->

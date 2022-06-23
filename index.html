@@ -35,12 +35,18 @@
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/presupuesto.html">Tú presupuesto</a>
+                        </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                                 data-bs-toggle="dropdown" aria-expanded="false">
                                 Productos
                             </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <ul class="dropdown-menu drop__productos" aria-labelledby="navbarDropdown">
                                 <li><a class="dropdown-item" href="./pages/modelos.html">Modelos</a></li>
                                 <li><a class="dropdown-item" href="./pages/palas.html">Palas</a></li>
                                 <li>
@@ -48,12 +54,6 @@
                                 </li>
                                 <li><a class="dropdown-item" href="./pages/accesorios.html">Accesorios</a></li>
                             </ul>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./pages/contacto.html">Contacto</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./pages/presupuesto.html">Tú presupuesto</a>
-                        </li>
                         </li>
                     </ul>
                     <form class="d-flex" role="search">
@@ -68,7 +68,7 @@
         <h2>Austral Kayaks Rosario</h2>
     </div>
     <!--inicia carousel -->
-    <section>
+    <main>
         <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
@@ -115,27 +115,26 @@
                 <span class="visually-hidden">Siguiente</span>
             </button>
         </div>
-    </section>
+    </main>
     <!--fin carousel -->
     <!--inicio boton modelos-->
-    <section >
-    <div class="container__boton">
-        <p class="p__boton">
-            <button class="btn" type="button" data-bs-toggle="collapse"
-                data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
-                Nuestra Historia
-            </button>
-        </p>
-    </div>
-    <!--arreglar
-    <div class="container__collapse">
-        <div class="collapse collapse-horizontal" id="collapseWidthExample">
-            <div class="card card-body">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, assumenda.
+    <aside class="container__btn">
+        <div>
+            <p>
+                <button class="btn btn__historia" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
+                    Nuestra Historia
+                </button>
+            </p>
+        </div>
+        <div class="p__collapse">
+            <div class="collapse collapse-horizontal" id="collapseWidthExample">
+                <div class="card card-body p__historia">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur minima alias rerum autem molestiae, eius omnis rem aperiam illum cupiditate accusantium eos exercitationem. Soluta voluptatem quasi repudiandae veritatis illum quidem!
+                </div>
             </div>
         </div>
-    </div>-->
-</section>
+    </aside>
     <!--fin boton modelos-->
     <!--incia el footer-->
     <footer class="container__footer">

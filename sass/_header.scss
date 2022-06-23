@@ -4,19 +4,36 @@
     background-color: #061d2c;
     border: 2px solid #121169;
     margin-bottom: 25px;
+    
 
     .logo__tipo {
         width: 150px;
         height: 80px;
-        border: 2px solid #000000;
+        border: $bordes;
         border-radius: 50%;
     }
 
     .nav-item {
-        font-family: Georgia, 'Times New Roman', Times, serif;
-        font-size: 2rem;
-        background-color: $color;
-        border: 1px solid #000000;
-        box-shadow: 3px 3px 10px #000000;
+        
+        
+        font-size: 1.4rem;
+        background-color: $color-botones;
+        border:$bordes;
+        box-shadow:$sombras;
+        .nav-link{
+            color: $color-letras;
+            font-family: $letras-botones;
+        }
+    }
+
+    .drop__productos {
+        background-color: $color-botones;
+        border:$bordes;
+        box-shadow:$sombras;
+        
+        .dropdown-item{
+            color: $color-letras;
+            font-family: $letras-botones;
+        }
     }
 }

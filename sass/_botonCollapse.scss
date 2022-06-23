@@ -1,5 +1,33 @@
 @import "variables";
 
+.container__btn {
+    font-size: 3rem;
+    color: $color-secundario;
+    position: relative;
+    margin-left: 30px;
 
+    .btn__historia {
+        color: $color-secundario;
+        background-color: $color-botones;
+        font-family: $letras-botones;
+        height: 50px;
+        width: 300px;
+        box-shadow: $sombras;
+        border: $bordes;
+    }
 
+    .p__collapse {
+        min-height: 50px;
+        margin: 0 100px 30px 30px;
 
+        .p__historia {
+            background-color: $color;
+            color: #000000;
+            position: relative;
+            font-family: $fuentes-secundarias;
+            font-size: 1rem;
+            box-shadow: $sombras;
+
+        }
+    }
+}

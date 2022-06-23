@@ -1,2 +1,145 @@
 @import "variables";
 
+
+.container__form {
+    border: $bordes;
+    width: 700px;
+    margin: 0 auto;
+    background-color: $color-primario;
+    box-shadow: $sombras;
+    border: $bordes;
+    border-radius: 10px;
+}
+
+.titulo__form {
+    font-size: 50px;
+    color: $color-terciario;
+    text-decoration: underline;
+    text-align: center;
+    font-family: $fuentes-secundarias;
+    
+}
+
+
+@mixin titulos-opc {
+    display: flex;
+    justify-content: center;
+    color: $color-terciario;
+    font-family: $fuentes-secundarias;
+    font-size: 2rem;
+    text-decoration: underline;
+    padding: 5px;
+    box-shadow: $sombras;
+    border-radius: 40px;
+    border: $bordes;
+}
+
+.form-label {
+    @include titulos-opc()
+}
+
+@mixin presupuestos {
+    width: 350px;
+    background-color: $color;
+    color: $color-casillas;
+    margin: 0 auto;
+    box-shadow: $sombras;
+}
+
+
+.form__control {
+    @include presupuestos()
+}
+
+.borde__form {
+    width: 500px;
+    height: 550px;
+
+}
+
+.btn__form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.btn__enviar {
+    color: $color-letras;
+    background-color: $color-botones;
+    font-size: $letras-botones;
+    border: $bordes;
+    box-shadow: $sombras;
+
+}
+
+
+
+
+@media  (max-width: 700px){
+    .container__form {
+        border: $bordes;
+        width: 375px;
+        margin: 0 auto;
+        box-shadow: $sombras;
+        border: $bordes;
+        border-radius: 10px;
+    }
+    
+    .titulo__form {
+        font-size: 25px;
+        color: $color-terciario;
+        text-decoration: underline;
+        text-align: center;
+        font-family: $fuentes-secundarias;
+    }
+    
+    
+    @mixin titulos-opc {
+        display: flex;
+        justify-content: center;
+        color: $color-terciario;
+        font-family: $fuentes-secundarias;
+        font-size: 10px;
+        text-decoration: underline;
+        padding: 5px;
+        box-shadow: $sombras;
+        border-radius: 40px;
+        border: $bordes;
+    }
+    }
+    
+    .form-label {
+        @include titulos-opc()
+    }
+    
+    @mixin presupuestos {
+        width: 250px;
+        background-color: $color;
+        color: $color-casillas;
+        margin: 0 auto;
+    }
+    
+    
+    .form__control {
+        @include presupuestos()
+    }
+    
+    .borde__form {
+        width: 400px;
+        height: 350px;
+    
+    }
+    
+    .btn__form {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+    
+    .btn__enviar {
+        color: $color-letras;
+        background-color: $color-botones;
+        font-size: $letras-botones;
+        
+    
+    }

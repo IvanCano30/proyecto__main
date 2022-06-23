@@ -35,13 +35,22 @@
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./contacto.html">Contacto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./presupuesto.html">Tú presupuesto</a>
+                        </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                                 data-bs-toggle="dropdown" aria-expanded="false">
                                 Productos
                             </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <ul class="dropdown-menu drop__productos" aria-labelledby="navbarDropdown">
                                 <li><a class="dropdown-item" href="./modelos.html">Modelos</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
                                 <li><a class="dropdown-item" href="./palas.html">Palas</a></li>
                                 <li>
                                     <hr class="dropdown-divider">
@@ -49,12 +58,7 @@
                                 <li><a class="dropdown-item" href="./accesorios.html">Accesorios</a></li>
                             </ul>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./contacto.html">Contacto</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./presupuesto.html">Tú presupuesto</a>
-                        </li>
+                        
                     </ul>
                     <form class="d-flex" role="search">
                         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
@@ -69,15 +73,15 @@
         <h2>Modelos:</h2>
     </div>
     <!--inicio cards -->
-    <div class="container-fluid">
+    <div class="container-fluid container__modelos">
         <div class="row">
             <div class="col-12 col-lg-4 col-md-6 col-sm-12">
                 <div class="card">
                     <img src="../img/maori.jpg" class="card-img-top" alt="Maori560">
                     <div class="card-body">
                         <h5 class="card-title">Maori560</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, quos?</p>
-                        <a href="./pages/modelos.html" class="btn btn-dark">Ingresar a Modelos</a>
+                        <p class="card-text">Luego ya pasamos al kayak cerrado. Son los que mas se parecen al concepto original que nació hace miles de años en Groenlandia. Vas sentado en su interior y te pones un faldón en la cintura (cubrebañeras) que sella la entrada de agua. El interior se puede inundar, por lo que debe llevar compartimentos estancos</p>
+                        <a href="./pages/modelos.html" class="btn btn-dark">Leer mas...</a>
                     </div>
                 </div>
             </div>
@@ -86,9 +90,9 @@
                     <img src="../img/husky10.jpg" class="card-img-top" alt="Husky">
                     <div class="card-body">
                         <h5 class="card-title">Husky</h5>
-                        <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores, aperiam.
+                        <p class="card-text">Una variante de los cerrados es el kayak de aguas bravas. Son kayaks muy cortos donde el barco se reduce a lo mínimo y la maniobrabilidad es el máximo fin. Esta virtud nos valdrá para negociar las turbulentas aguas de un río o de una ola. También para hacer giros y volteretas imposibles. Hay variantes como la crossover  que son un poco más largas e incorporan un tambucho para llevar la merienda, una muda y poco más.
                         </p>
-                        <a href="../pages/modelos.html" class="btn btn-dark">Ingresar a Modelos</a>
+                        <a href="../pages/modelos.html" class="btn btn-dark">Leer más...</a>
                     </div>
                 </div>
             </div>
@@ -97,9 +101,9 @@
                     <img src="../img/oceanus10.jpg" class="card-img-top" alt="Oceanus">
                     <div class="card-body">
                         <h5 class="card-title">Oceanus</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat, beatae!
+                        <p class="card-text">Canoa es lo que llevaban los indios de las películas del Oeste. Una embarcación donde vas arrodillado, o sentado en un travesaño, y la pala es de una sola hoja. Esta postura influye mucho en el comportamiento de la embarcación y comodidad del palista. Solo vale para aguas tranquilas y hay mejores opciones para el mar. 
                         </p>
-                        <a href="./pages/modelos.html" class="btn btn-dark">Ingresar a Modelos</a>
+                        <a href="./pages/modelos.html" class="btn btn-dark">Leer más...</a>
                     </div>
                 </div>
             </div>
@@ -107,22 +111,23 @@
         <!--fin cards -->
 
 
-    
-    <!--incia el footer-->
-    <footer class="container__footer">
-        <div class="footer__a">
-            <a class="a__item" href="https://www.instagram.com/australkayaks/">
-                <i class="fa-brands fa-instagram"></i>Instagram </a>
-            <a class="a__item" href="https://www.facebook.com/australkayaks">
-                <i class="fa-brands fa-facebook-f"></i>Facebook</a>
-            <a class="a__item" href="https://wa.me/c/5493413588817">
-                <i class="fa-brands fa-whatsapp"></i> Whatsapp / Catalogo</a>
-        </div>
-    </footer>
-    <!--termina el footer-->
-    <!-- JavaScript Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
-    </script>
+
+        <!--incia el footer-->
+        <footer class="container__footer">
+            <div class="footer__a">
+                <a class="a__item" href="https://www.instagram.com/australkayaks/">
+                    <i class="fa-brands fa-instagram"></i>Instagram </a>
+                <a class="a__item" href="https://www.facebook.com/australkayaks">
+                    <i class="fa-brands fa-facebook-f"></i>Facebook</a>
+                <a class="a__item" href="https://wa.me/c/5493413588817">
+                    <i class="fa-brands fa-whatsapp"></i> Whatsapp / Catalogo</a>
+            </div>
+        </footer>
+        <!--termina el footer-->
+        <!-- JavaScript Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+        </script>
 </body>
+
 </html>
