@@ -5,17 +5,17 @@
     border: 2px solid #121169;
     margin-bottom: 25px;
     
-
+    .btn__hamburguesa{
+        
+        background-color: $color-botones;
+    }
     .logo__tipo {
         width: 150px;
         height: 80px;
         border: $bordes;
         border-radius: 50%;
     }
-
     .nav-item {
-        
-        
         font-size: 1.4rem;
         background-color: $color-botones;
         border:$bordes;
@@ -36,4 +36,5 @@
             font-family: $letras-botones;
         }
     }
+
 }
