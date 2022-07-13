@@ -8,6 +8,7 @@
     <meta name="keywords" content="Maori560,Husky,Oceanus">
     <meta name="description" content="obtene tu kayak para tu descanso">
     <link rel="shortcut icon" href="../img/favicon/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
         integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -58,9 +59,9 @@
                                 <li><a class="dropdown-item" href="./accesorios.html">Accesorios</a></li>
                             </ul>
                         </li>
-                        
+
                     </ul>
-                    
+
                 </div>
             </div>
         </nav>
@@ -69,44 +70,35 @@
     <div class="titulo--principal">
         <h2>Modelos:</h2>
     </div>
-    <!--inicio cards -->
-    <div class="container-fluid container__modelos">
-        <div class="row">
-            <div class="col-12 col-lg-4 col-md-6 col-sm-12">
-                <div class="card">
-                    <img src="../img/maori.jpg" class="card-img-top" alt="Maori560">
-                    <div class="card-body">
-                        <h5 class="card-title">Maori560</h5>
-                        <p class="card-text">Luego ya pasamos al kayak cerrado. Son los que mas se parecen al concepto original que nació hace miles de años en Groenlandia. Vas sentado en su interior y te pones un faldón en la cintura (cubrebañeras) que sella la entrada de agua. El interior se puede inundar, por lo que debe llevar compartimentos estancos</p>
-                        <a href="./pages/modelos.html" class="btn btn-dark">Leer mas...</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-lg-4 col-md-6 col-sm-12">
-                <div class="card">
-                    <img src="../img/husky10.jpg" class="card-img-top" alt="Husky">
-                    <div class="card-body">
-                        <h5 class="card-title">Husky</h5>
-                        <p class="card-text">Una variante de los cerrados es el kayak de aguas bravas. Son kayaks muy cortos donde el barco se reduce a lo mínimo y la maniobrabilidad es el máximo fin. Esta virtud nos valdrá para negociar las turbulentas aguas de un río o de una ola. También para hacer giros y volteretas imposibles. Hay variantes como la crossover  que son un poco más largas e incorporan un tambucho para llevar la merienda, una muda y poco más.
-                        </p>
-                        <a href="../pages/modelos.html" class="btn btn-dark">Leer más...</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-lg-4 col-md-12 col-sm-12">
-                <div class="card">
-                    <img src="../img/oceanus10.jpg" class="card-img-top" alt="Oceanus">
-                    <div class="card-body">
-                        <h5 class="card-title">Oceanus</h5>
-                        <p class="card-text">Canoa es lo que llevaban los indios de las películas del Oeste. Una embarcación donde vas arrodillado, o sentado en un travesaño, y la pala es de una sola hoja. Esta postura influye mucho en el comportamiento de la embarcación y comodidad del palista. Solo vale para aguas tranquilas y hay mejores opciones para el mar. 
-                        </p>
-                        <a href="./pages/modelos.html" class="btn btn-dark">Leer más...</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!--fin cards -->
-        <!--inicio presupuesto-->
+    <div class="p__modelos">
+        <h5>Caracteristica de kayaks</h5>
+        <p>Por sus formas, quizá sean los modelos actuales que más recuerdan los kayaks esquimales. Su rasgo característico serán su proa y popa ligeramente elevadas y de perfil muy redondeado que les permite acometer el oleaje con garantías. Serán kayaks largos, capaces de cubrir grandes distancias, más anchos que los modelos de velocidad y con compartimentos estancos que les permiten llevar cierta cantidad de carga (como provisiones, agua, elementos de campamento, botiquín, cartografía, sistemas de comunicación, instrumentos de navegación, etc.). Los modelos actuales pueden acomodar uno, dos o tres palistas. Algunos modelos tienen timón, otros no. Finalmente algunos kayaks para zonas frías son forrados interiormente en poliuretano o fibra aislante. Podemos encontrar modelos en fibra de vidrio o en materiales plásticos rotomoldeados, en este caso muy resistentes al impacto al precio de mucho mayor peso.</p>
+    </div>
+    <!--inicio modelos-->
+    <ul class="card-wrapper">
+        <li class="card">
+            <img src='/img/husky3.jpg'
+                alt='kayak Husky single'>
+            <h3><a href="">Husky</a></h3>
+            <p>Kayak Single de travesias/Recreativo</p>
+        </li>
+        <li class="card">
+            <img src='/img/oceanus3.jpg'
+                alt='Oceanus doble kayak'>
+            <h3><a href="">Oceanus Doble</a></h3>
+            <p>Kayak Doble cerrado de travesias</p>
+        </li>
+        <li class="card">
+            <img src='/img/maori3.jpg'
+                alt='Maori560 Kayak single'>
+            <h3><a href="">Maori560</a></h3>
+            <p>Kayak Super-Travesia</p>
+        </li>
+    </ul>
+    <!--fin modelos-->
+    <br>
+    <hr class="linea">
+    <!--inicio presupuesto-->
 
     <form class="container__form">
 
@@ -122,7 +114,7 @@
                 placeholder="Ejemplo@ejemplo.com">
         </div>
         <div class="mb-3">
-            <label for="disabledSelect" class="form-label">Que Modelo Te Interesó:</label>
+            <label for="disabledSelect" class="form-label">Que Te Interesó:</label>
             <select id="disabledSelect" class="form-select form__control">
                 <option class="Select__Options">Selecciona uno</option>
                 <option class="Select__Options">Maori560</option>
@@ -140,22 +132,22 @@
 
 
 
-        <!--incia el footer-->
-        <footer class="container__footer">
-            <div class="footer__a">
-                <a class="a__item" href="https://www.instagram.com/australkayaks/">
-                    <i class="fa-brands fa-instagram"></i>Instagram </a>
-                <a class="a__item" href="https://www.facebook.com/australkayaks">
-                    <i class="fa-brands fa-facebook-f"></i>Facebook</a>
-                <a class="a__item" href="https://wa.me/c/5493413588817">
-                    <i class="fa-brands fa-whatsapp"></i> Whatsapp / Catalogo</a>
-            </div>
-        </footer>
-        <!--termina el footer-->
-        <!-- JavaScript Bundle with Popper -->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
-        </script>
+    <!--incia el footer-->
+    <footer class="container__footer">
+        <div class="footer__a">
+            <a class="a__item" href="https://www.instagram.com/australkayaks/">
+                <i class="fa-brands fa-instagram"></i>Instagram </a>
+            <a class="a__item" href="https://www.facebook.com/australkayaks">
+                <i class="fa-brands fa-facebook-f"></i>Facebook</a>
+            <a class="a__item" href="https://wa.me/c/5493413588817">
+                <i class="fa-brands fa-whatsapp"></i> Whatsapp / Catalogo</a>
+        </div>
+    </footer>
+    <!--termina el footer-->
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+    </script>
 </body>
 
 </html>

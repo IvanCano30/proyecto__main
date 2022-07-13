@@ -1,6 +1,6 @@
 @import "variables";
 
-.p__accesorio{
+.p__palas{
     font-size: 1em;
     text-shadow: $sombras;
     border-radius: 10px;
@@ -13,11 +13,12 @@
     color: $color_letras;
     width: 700px;
 }
-.p__accesorio h5{
+.p__palas h5{
     font-size: 2em;
     color: orange;
     text-decoration: underline;
 }
+
 .card {
 	--card-gradient: rgba(0, 0, 0, 0.8);
 	--card-gradient: #5e9ad9, #e271ad;
@@ -25,12 +26,12 @@
 	--card-blend-mode: overlay;
 	// --card-blend-mode: multiply;
 
-	background-color: #fff;
+	background-color:$color_grey;
 	border-radius: 0.5rem;
 	box-shadow: 0.05rem 0.1rem 0.3rem -0.03rem rgba(0, 0, 0, 0.45);
 	padding-bottom: 1rem;
 	background-image: linear-gradient(var(--card-gradient),
-			white max(9.5rem, 27vh));
+			$color max(9.5rem, 27vh));
 	overflow: hidden;
 
 	img {
@@ -69,10 +70,12 @@
 .card h3 {
 	margin-top: 1rem;
 	font-size: 1.25rem;
+    
 }
 
 .card a {
-	color: inherit;
+	color: $color-letras;
+    
 }
 
 .card-wrapper {

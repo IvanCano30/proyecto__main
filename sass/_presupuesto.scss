@@ -3,9 +3,9 @@
 
 .container__form {
     border: $bordes;
-    width: 700px;
+    width: 550px;
     margin: 0 auto;
-    background-color: $color-primario;
+    background-color: $color_prime;
     box-shadow: $sombras;
     border: $bordes;
     border-radius: 10px;
@@ -14,7 +14,7 @@
 .titulo__form {
     font-size: 50px;
     color: $color-terciario;
-    text-decoration: underline;
+    text-decoration: none;
     text-align: center;
     font-family: $fuentes-secundarias;
     
@@ -27,7 +27,7 @@
     color: $color-terciario;
     font-family: $fuentes-secundarias;
     font-size: 2rem;
-    text-decoration: underline;
+    text-decoration: none;
     padding: 5px;
     box-shadow: $sombras;
     border-radius: 40px;
@@ -88,7 +88,7 @@
     .titulo__form {
         font-size: 25px;
         color: $color-terciario;
-        text-decoration: underline;
+        text-decoration: none;
         text-align: center;
         font-family: $fuentes-secundarias;
     }
@@ -100,7 +100,7 @@
         color: $color-terciario;
         font-family: $fuentes-secundarias;
         font-size: 10px;
-        text-decoration: underline;
+        text-decoration: none;
         padding: 5px;
         box-shadow: $sombras;
         border-radius: 40px;
